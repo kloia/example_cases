@@ -11,6 +11,7 @@ Api docker image is under => `https://hub.docker.com/r/kloiadocker/service_api`
 ### First;
 
 * In this case develop a prometheus exporter which language you prefer and deploy those expoter and application into Kubernetes cluster (helm or direct k8s manifests)
+Notice: Provision a kubernetes cluster with what you want to use (eg. Kind, minikube, kubeadm, rke, ... etc) but we want to see your setup steps
 
 ### Second ;
 
