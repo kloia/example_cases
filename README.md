@@ -4,7 +4,9 @@ We have an api which has three endpoint shown at below;
 * `/action` returning dummy 200 responses
 * `/error_endpoint` returning 500 responses
 * `/metrics` returning JSON metrics to enduser
+
 This application running over 5000 port without any thirdparty dependencies
+Api docker image is under => `https://hub.docker.com/r/kloiadocker/service_api`
 
 ### First;
 
@@ -19,6 +21,4 @@ This application running over 5000 port without any thirdparty dependencies
 Notice: Define password authentication to  Prometheus and Alertmanager applications
 
 Good Luck !
-If you have any question about that please call us;
-emir@kloia.com
-
+If you have any question please call us 
